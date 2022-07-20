@@ -99,7 +99,7 @@ public final class  ItemDeath extends JavaPlugin implements Listener {
         //Now we need to calculate the amount of XP to drop on the ground.
         //It is equal to their old total XP minus the new level's total XP.
         //That number is then multiplied by 0.25 as requested so effectively 75%
-        //of dropped xp is lost.
+        //of xp that would've been dropped is lost permanently.
         float oldXP = levelToExp(cachedLevel);
         float newXP = levelToExp(level);
         event.setNewLevel(level);
