@@ -1,0 +1,6 @@
+name: ItemDeath
+version: '${project.version}'
+main: net.gguppy.itemdeath.ItemDeath
+api-version: 1.19
+description: Request When you die, you drop 1-5 items and 5-40% of exp
+website: gguppy.net
